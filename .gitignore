@@ -1,0 +1,54 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Virtual environment
+.venv/
+venv/
+env/
+.env/
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+
+# Database files (if applicable, e.g., SQLite)
+*.sqlite3
+*.db
+
+# Configuration files with sensitive data (e.g., API keys)
+.env
+config.ini
+settings.py # If it contains sensitive data not meant for version control
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Pipenv files
+Pipfile.lock # Include if you want to ensure exact dependency versions across environments, otherwise ignore.
+
+# Poetry files
+poetry.lock # Include if you want to ensure exact dependency versions across environments, otherwise ignore.
+
+# PDM files
+pdm.lock # Include if you want to ensure exact dependency versions across environments, otherwise ignore.
+.pdm-python # Generally recommended to ignore.
+
+# Test coverage reports
+.coverage
+htmlcov/
+
+# Other common files to ignore
+*.swp # Vim swap files
+*.bak # Backup files
