@@ -1,5 +1,6 @@
 import sqlalchemy
 
+
 class UserController(self, baseDto):
     def __init__(self, baseDto):
         self.baseDto = baseDto
